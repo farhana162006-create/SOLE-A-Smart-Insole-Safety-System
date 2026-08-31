@@ -2,7 +2,6 @@
 #include <MPU6050.h>
 
 MPU6050 mpu;
-
 // MOVING AVERAGE FILTER
 const int WINDOW_SIZE = 10;
 float mag_buffer[WINDOW_SIZE];
